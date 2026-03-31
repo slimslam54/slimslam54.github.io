@@ -1,13 +1,78 @@
 body {
-  background-color: lightblue;
+  background-color: #240046;
 }
 
 h1 {
   color: white;
+  font-family: Courier New, monospace;
+
   text-align: center;
 }
 
+h2 {
+  color: white;
+  font-family: Courier New, monospace;
+
+  text-align: left;
+}
+
 p {
+  color: white;
   font-family: Courier New, monospace;
   font-size: 20px;
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #310957;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #3c096c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7e04aa;
+  color: white;
+}
+
+.textbox {
+    background-color: #3c096c;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+.reviewbox {
+    background-color: #3c096c;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+.reviewbox p {
+    color: white;
+  font-family: Courier New, monospace;
+  font-size: 20px;
+  text-align: left;
+} 
