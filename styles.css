@@ -24,29 +24,27 @@ p {
   font-size: 20px;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-  background-color: #310957;
+  background-color: #1b0749;
   overflow: hidden;;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Courier New, monospace;
+
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: #3c096c;
+  color: #14075e;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #7e04aa;
   color: white;
@@ -77,4 +75,18 @@ p {
     color: white;
   font-family: Courier New, monospace;
   font-size: 20px;
+} 
+
+.reviewbox h4 {
+    color: white;
+
+  font-family: Courier New, monospace;
+  font-size: 10px;
+} 
+
+.textbox h4 {
+    color: white;
+
+  font-family: Courier New, monospace;
+  font-size: 10px;
 } 
