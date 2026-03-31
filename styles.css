@@ -56,9 +56,9 @@ p {
     background-color: #3c096c6d;
   overflow: hidden;
   padding-top: 10px;
-  padding-right: 30px;
+  padding-right: 50px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 50px;
   text-align: center;
 
 }
@@ -67,9 +67,9 @@ p {
     background-color: #3c096c6d;
   overflow: hidden;
   padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
 
 }
 
