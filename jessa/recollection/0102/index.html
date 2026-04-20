@@ -55,20 +55,37 @@
 </div>
 
 <script>
+  const characters = {
+    'T.L': {
+      icon: '/images/jessa/jessaicon.png',
+      color: 'rgb(108, 101, 226)'
+    },
+    'Shark': {
+      icon: '/images/shark/sharkicon.png',
+      color: 'rgb(128, 0, 255)'
+    }
+  };
+
   document.querySelectorAll('.jessabox p').forEach(p => {
+    const name = Object.keys(characters).find(n => p.textContent.startsWith(n));
+    const char = characters[name];
+
+    if (!char) return;
+
+    p.style.color = char.color;
+
     const wrapper = document.createElement('div');
     wrapper.style.cssText = 'display:flex; align-items:flex-start; gap:10px;';
-    
+
     const icon = document.createElement('img');
-    icon.src = '/images/jessa/jessaicon.png';
+    icon.src = char.icon;
     icon.style.cssText = 'width:36px; height:36px; object-fit:contain; flex-shrink:0; margin-top:12px;';
-    
+
     p.parentNode.insertBefore(wrapper, p);
     wrapper.appendChild(icon);
     wrapper.appendChild(p);
   });
 </script>
-
 </body>
 
 
