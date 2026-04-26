@@ -124,3 +124,38 @@ p {
   font-family: Courier New, monospace;
   font-size: 10px;
 } 
+
+.imgbox {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imgbox img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.imgbox h3 {
+    color: white;
+  text-align: center;
+
+  font-family: Courier New, monospace;
+  font-size: 20px;
+} 
+
+.imgbox p {
+    color: white;
+  text-align: center;
+
+  font-family: Courier New, monospace;
+  font-size: 20px;
+} 
+
+.imgbox h2 {
+    color: white;
+  text-align: center;
+  font-family: Courier New, monospace;
+  font-size: 25px;
+} 
